@@ -13,7 +13,7 @@ import java.io.PrintWriter;
 public class GruposCatalogoServlet extends HttpServlet {
     private GestorConsultas gestorConsultas = new GestorConsultas();
     private String[] autores = gestorConsultas.listaAutores();
-    private String inicio = "/";
+    private String inicio = "index.jsp";
 
     public void init() {
 
@@ -30,6 +30,7 @@ public class GruposCatalogoServlet extends HttpServlet {
             out.println("<li>"+autores[i]+"</li>");
         }
         out.println("</ul>");
+        out.println("<a href="+inicio+">Volver al inicio</a>");
         out.println("</body></html>");
     }
 
