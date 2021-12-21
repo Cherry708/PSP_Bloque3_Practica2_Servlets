@@ -8,8 +8,8 @@
 <h1>Tienda de discos</h1>
 <br/>
 <ul>
-    <li><a href="grupos-catalogo-servlet">Lista grupos del catálogo</a></li>
-    <li><a href="buscar-disco-grupo-servlet">Busca discos por grupo</a></li>
+    <li><a href="grupos-catalogo">Listar grupos del catálogo</a></li>
+    <li><a href="discosGrupo.html">Buscar disco por grupo</a></li>
 </ul>
 </body>
 </html>

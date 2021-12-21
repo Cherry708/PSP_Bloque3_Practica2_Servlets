@@ -9,7 +9,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-@WebServlet(name = "gruposCatalogoServlet", value = "/grupos-catalogo-servlet")
+@WebServlet(name = "gruposCatalogoServlet", value = "/grupos-catalogo")
 public class GruposCatalogoServlet extends HttpServlet {
     private GestorConsultas gestorConsultas = new GestorConsultas();
     private String[] autores = gestorConsultas.listaAutores();
